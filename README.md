@@ -4,4 +4,4 @@
 
 ## GitHub Pages
 
-https://你的用户名.github.io/你的仓库名/
+https://sl1940.github.io/week2/
