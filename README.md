@@ -4,4 +4,4 @@
 
 ## GitHub Pages
 
-https://sl1940.github.io/week2/
+https://sl1940.github.io/campus-hotspots/
