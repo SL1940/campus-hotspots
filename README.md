@@ -1,3 +1,21 @@
+## 2주차: 나만의 캠퍼스 핫스팟
+
+캠퍼스에서 공부하다 잠시 쉬고 싶을 때 찾아가는 세 장소를 소개하는 웹페이지입니다. Road, Dining Hall, Gym의 위치와 특징을 간단하게 소개했습니다.
+
+### GitHub Pages URL
+- https://你的GitHub用户名.github.io/你的仓库名/
+
+### 페이지 소개
+- Road: 산길을 걸으며 경치를 볼 수 있는 장소
+- Dining Hall: 학생과 교직원이 식사를 할 수 있는 장소
+- Gym: 운동을 하며 휴식을 취할 수 있는 장소
+
+### 출처
+- 이미지: 직접 촬영
+- 위치 정보: Google Maps
+
+
+
 ## 3주차: 네 페이지, 네 가지 분위기
 
 - GitHub Pages URL: 你的 GitHub Pages URL
