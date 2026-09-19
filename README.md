@@ -3,7 +3,7 @@
 캠퍼스에서 공부하다 잠시 쉬고 싶을 때 찾아가는 세 장소를 소개하는 웹페이지입니다. Road, Dining Hall, Gym의 위치와 특징을 간단하게 소개했습니다.
 
 ### GitHub Pages URL
-- https://你的GitHub用户名.github.io/你的仓库名/
+-https://sl1940.github.io/campus-hotspots/
 
 ### 페이지 소개
 - Road: 산길을 걸으며 경치를 볼 수 있는 장소
@@ -18,7 +18,7 @@
 
 ## 3주차: 네 페이지, 네 가지 분위기
 
-- GitHub Pages URL: 你的 GitHub Pages URL
+- GitHub Pages URL:https://sl1940.github.io/campus-hotspots/
 
 ### 페이지별 스타일
 - 프론트페이지: 깔끔하고 간단한 분위기 / `page-home` class와 기본 CSS 적용
