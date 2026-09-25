@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>쓰리의 캠퍼스 핫스팟 - Week 4</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <div class="page">
+
+        <header>
+            <a href="../index.html">처음으로</a>
+            <h1>쓰리의 캠퍼스 핫스팟</h1>
+            <p>공부하다 잠시 숨을 돌리고 싶을 때 찾아가는 세 장소를 소개합니다.</p>
+        </header>
+
+        <main>
+
+            <nav class="place-buttons" aria-label="장소 선택">
+                <button
+                    class="place-button"
+                    data-place="road"
+                    data-map="https://www.google.com/maps/embed?pb=!1m5!3m3!1m2!1s0x357b62ae068837ef%3A0x69037e6ca4a7249!2sFRP2%2BRH4%2C%20Bucheon%2C%20Gyeonggi-do!5e0!3m2!1szh-CN!2skr!4v1790344270466!5m2!1szh-CN!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin">
+                    Road
+                </button>
+
+                <button
+                    class="place-button"
+                    data-place="gym"
+                    data-map="https://www.google.com/maps/embed?pb=!1m5!3m3!1m2!1s0x357b62ae068837ef%3A0x3075147b7ef1c36a!2sFRP3%2B478%2C%20Bucheon%2C%20Gyeonggi-do!5e0!3m2!1szh-CN!2skr!4v1790344335804!5m2!1szh-CN!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin">
+                    Gym
+                </button>
+
+                <button
+                    class="place-button"
+                    data-place="dining"
+                    data-map="https://www.google.com/maps/embed?pb=!1m5!3m3!1m2!1s0x357b62ae068837ef%3A0x9cc53738a0c0a28c!2sFRP2%2BHFM%2C%20Bucheon%2C%20Gyeonggi-do!5e0!3m2!1szh-CN!2skr!4v1790344361481!5m2!1szh-CN!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin">
+                    Dining Hall
+                </button>
+            </nav>
+
+
+            <section id="road" class="place">
+                <h2>Road</h2>
+
+                <img
+                    src="../images/road.JPG"
+                    alt="굽이진 산길">
+
+                <div class="panel">
+                    <h3>나의 핫스팟</h3>
+
+                    <p>
+                        경사가 있고 굽이진 길이 이어지는 곳입니다.
+                        길을 걸으면서 주변 풍경을 볼 수 있습니다.
+                    </p>
+
+                    <p>
+                        공부하다 잠시 쉬면서 걸어 다니고 싶을 때
+                        찾아가는 장소입니다.
+                    </p>
+                </div>
+            </section>
+
+
+            <section id="gym" class="place" hidden>
+                <h2>Gym</h2>
+
+                <img
+                    src="../images/gym.JPG"
+                    alt="운동 공간">
+
+                <div class="panel">
+                    <h3>나의 핫스팟</h3>
+
+                    <p>
+                        K관 1층 한쪽에 있는 운동 공간입니다.
+                    </p>
+
+                    <p>
+                        운동을 하면서 체력을 관리하고
+                        공부 중간에 기분을 전환할 수 있습니다.
+                    </p>
+                </div>
+            </section>
+
+
+            <section id="dining" class="place" hidden>
+                <h2>Dining Hall</h2>
+
+                <img
+                    src="../images/dining Hall.JPG"
+                    alt="학생식당">
+
+                <div class="panel">
+                    <h3>나의 핫스팟</h3>
+
+                    <p>
+                        B관 1층과 2층에 있는 식당입니다.
+                    </p>
+
+                    <p>
+                        학생과 교직원이 식사를 할 수 있고,
+                        공부하다가 식사를 하며 잠시 쉬어갈 수 있습니다.
+                    </p>
+                </div>
+            </section>
+
+
+            <section class="map-section">
+                <h2>지도에서 위치 확인</h2>
+
+                <iframe
+                    id="map"
+                    title="선택한 장소의 지도"
+                    src="https://www.google.com/maps/embed?pb=ROAD_MAP_URL"
+                    loading="lazy">
+                </iframe>
+            </section>
+
+        </main>
+
+
+        <footer>
+            <p>Week 4 · JavaScript 실습</p>
+        </footer>
+
+    </div>
+</body>
+</html>
