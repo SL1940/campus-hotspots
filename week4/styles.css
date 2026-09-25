@@ -133,3 +133,45 @@ footer {
         height: 300px;
     }
 }
+
+/* Game */
+
+#gameCanvas {
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    margin: 1.5rem auto;
+    background: white;
+    border: 2px solid #333;
+    border-radius: 8px;
+}
+
+#startButton,
+#restartButton {
+    padding: 0.7rem 1.2rem;
+    border: none;
+    border-radius: 8px;
+    background: #ddd;
+    color: #333;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#startButton:hover,
+#restartButton:hover {
+    background: #ccc;
+}
+
+@media (max-width: 600px) {
+
+    #gameCanvas {
+        width: 100%;
+        height: auto;
+    }
+
+    #startButton,
+    #restartButton {
+        width: 100%;
+    }
+}
