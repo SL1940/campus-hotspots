@@ -39,8 +39,8 @@
 ## 4주차: JavaScript 실습
 
 * 장소 탐험 페이지: https://sl1940.github.io/campus-hotspots/week4/
-* 통계 페이지: https://sl1940.github.io/campus-hotspots/week4/statistics.html/
-* 게임 페이지: https://sl1940.github.io/campus-hotspots/week4/game.html/
+* 통계 페이지: https://sl1940.github.io/campus-hotspots/week4/statistics.html
+* 게임 페이지: https://sl1940.github.io/campus-hotspots/week4/game.html
 
 ### 실습 1
 
